@@ -23,7 +23,11 @@ module TicTacToe
     end
 
     context "#name" do
-      it "returns the players name"
+      it "returns the players name" do
+        input = {name: "Tim", symbol: "X"}
+        player = Player.new(input)
+        expect(player.name).to eq "Tim"
+      end
     end
 
   end
