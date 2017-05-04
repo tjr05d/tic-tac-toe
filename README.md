@@ -1,4 +1,4 @@
-##Challenge for May 4th, 2017
+## Challenge for May 4th, 2017
 
 Last night we started with some TDD using RSpec, and began writing tests for our `Player` class. The task for today is to make the final test pass and to make all of the `Cell` specs pass.
 
